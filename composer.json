@@ -1,0 +1,28 @@
+{
+    "name": "iantoo/laravel-unique-number",
+    "description": "A laravel package that generates a unique number each day based on the year and month.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iantoo\\LaravelUniqueNumber\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Too",
+            "email": "ianktoo@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0",
+        "illuminate/support":"^11.20"
+    },
+    "extra" : {
+        "laravel": {
+            "providers":[
+                "Iantoo\\LaravelUniqueNumber\\UniqueNumberServiceProvider"
+            ]
+        }
+    }
+}
