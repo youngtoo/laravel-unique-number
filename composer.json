@@ -1,7 +1,7 @@
 {
     "name": "iantoo/laravel-unique-number",
     "description": "A laravel package that generates a unique number each day based on the year and month.",
-    "type": "project",
+    "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
